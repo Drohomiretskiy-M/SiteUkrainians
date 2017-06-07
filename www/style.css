@@ -1,0 +1,39 @@
+body{
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+#author {
+	font-size: 0.3em;
+}
+
+.nav {
+	width: 800px;
+	padding: 15px;
+	font-size: 1.5em;
+	display: inline-block;
+	
+	
+}
+
+main {
+	background-color: #f5f6fa;
+}
+
+img {
+	padding: 10px;
+}
+
+
+.exit {
+	float: right;
+	
+}
+
+.logo {
+	float: left;
+}
+
+.navbar {
+	text-align: center;
+}
