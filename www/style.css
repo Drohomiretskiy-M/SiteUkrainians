@@ -4,6 +4,11 @@ body {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 header {
 	height: 60px;
 	border: 1px solid #d0d0d2;
@@ -20,16 +25,22 @@ header {
 	font-size: 25px;
 	float: left;
 	font-family: sans-serif;
-	color: brown;
-	
 }
+
 .navbar-logo a {
-	text-decoration: none;
-	
+	color: #092c5a;
 }
 
 .navbar-logo a:hover {
-	
+	color: #467abe;
+}
+
+.navbar-login a {
+	color: #092c5a;
+}
+
+.navbar-login a:hover {
+	color: #467abe;
 }
 
 .navbar-login {
@@ -47,12 +58,6 @@ main {
 	background-color: #f5f6fa;
 }
 
-footer {
-	height: 70px;
-	border-top: 1px solid #d0d0d2;
-	background-color: #f5f6fa;
-}
-
 .content {
 	width: 1000px;
 	height: 500px;
@@ -62,16 +67,14 @@ footer {
 .map-ua {
 	height: 420px;
 	width: 550px;
-	padding: 45px;
+	padding: 35px;
 	float: left;
 }
-
-
 
 .saidebar {
 	text-align: center;
 	border: 1px solid #d0d0d2;
-	margin-top: 100px;
+	margin-top: 70px;
 	float: right;
 	height: 300px;
 	width: 350px;
@@ -79,22 +82,9 @@ footer {
 	border-radius: 2px;
 }
 
-.saidebar a {
-	margin: 10px;
-	padding: 20px;
-	text-decoration: none;
-	height: 50px;
-	width: 40px;
-	
-	border-radius: 3px;
-
-}
-
-
-
 h3 {
 	text-align: center;
-	
+	color: #353c4f;
 	font-family: sans-serif;
 }
 
@@ -102,11 +92,85 @@ h4 {
 	font-weight: 100;
 	text-align: center;
 	margin: 0 auto;
-
+	color: #8a8b8b;
 	font-family: sans-serif;
 	padding-bottom: 50px;
 }
 
+.saidebar span {
+	margin: 10px;
+	padding: 20px;
+	text-decoration: none;
+	height: 50px;
+	width: 40px;
+	background: #073c81;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.saidebar span a {
+	color: #fff;
+}
+
+.saidebar span:hover {
+	background-color: #073ca2;
+}
+
+.reg-email a {
+	color: #8a8b8b;
+}
+
+.reg-email a:hover {
+	color: #cecece;
+}
+
 .reg-email {
 	padding: 50px;
+	color: #a9abaa;
+}
+
+footer {
+	height: 70px;
+	width: 100%;
+	border-top: 1px solid #d0d0d2;
+	background-color: #f5f6fa;
+	display: inline-block;
+	
+	
+}
+
+.footer-content {
+	padding-top: 25px;
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.footer-nav {
+	float: left;
+}
+
+.footer-nav p {
+	color: #8a8b8b;
+	display: inline;
+}
+.footer-nav p a {
+	color: #a9abaa;
+	
+}
+.footer-nav p a:hover {
+	color: #cecece;
+	
+}
+
+.confid {
+	
+	display: inline;
+	float: right;
+}
+.confid a{
+	color: #8a8b8b;
+}
+.confid a:hover{
+	color: #cecece;
 }
