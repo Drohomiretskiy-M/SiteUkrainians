@@ -1,39 +1,112 @@
-body{
+body {
 	background-color: #fff;
 	margin: 0;
 	padding: 0;
 }
-#author {
-	font-size: 0.3em;
+
+header {
+	height: 60px;
+	border: 1px solid #d0d0d2;
 }
 
-.nav {
-	width: 800px;
-	padding: 15px;
-	font-size: 1.5em;
-	display: inline-block;
+.navbar {
+	width: 1000px;
+	height: 58px;
+	margin: 0 auto;
+}
+
+.navbar-logo {
+	margin: 15px;
+	font-size: 25px;
+	float: left;
+	font-family: sans-serif;
+	color: brown;
 	
+}
+.navbar-logo a {
+	text-decoration: none;
 	
+}
+
+.navbar-logo a:hover {
+	
+}
+
+.navbar-login {
+	margin: 23px;
+	font-size: 15px;
+	float: right;
+	font-family: sans-serif;
+}
+
+sub {
+	font-size: 10px;
 }
 
 main {
 	background-color: #f5f6fa;
 }
 
-img {
-	padding: 10px;
+footer {
+	height: 70px;
+	border-top: 1px solid #d0d0d2;
+	background-color: #f5f6fa;
 }
 
-
-.exit {
-	float: right;
-	
+.content {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
 }
 
-.logo {
+.map-ua {
+	height: 420px;
+	width: 550px;
+	padding: 45px;
 	float: left;
 }
 
-.navbar {
+
+
+.saidebar {
 	text-align: center;
+	border: 1px solid #d0d0d2;
+	margin-top: 100px;
+	float: right;
+	height: 300px;
+	width: 350px;
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+.saidebar a {
+	margin: 10px;
+	padding: 20px;
+	text-decoration: none;
+	height: 50px;
+	width: 40px;
+	
+	border-radius: 3px;
+
+}
+
+
+
+h3 {
+	text-align: center;
+	
+	font-family: sans-serif;
+}
+
+h4 {
+	font-weight: 100;
+	text-align: center;
+	margin: 0 auto;
+
+	font-family: sans-serif;
+	padding-bottom: 50px;
+}
+
+.reg-email {
+	padding: 50px;
 }
