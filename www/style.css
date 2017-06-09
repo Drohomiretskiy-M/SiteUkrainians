@@ -72,6 +72,18 @@ main {
 }
 
 .saidebar {
+	
+	text-align: center;
+	border: 1px solid #d0d0d2;
+	margin-top: 70px;
+	float: right;
+	height: 300px;
+	width: 350px;
+	background-color: #fff;
+	border-radius: 2px;
+}
+.saidebar-next {
+	display: none;
 	text-align: center;
 	border: 1px solid #d0d0d2;
 	margin-top: 70px;
