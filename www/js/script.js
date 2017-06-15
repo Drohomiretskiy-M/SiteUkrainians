@@ -5,3 +5,8 @@
 	 document.getElementById('email-reg').style.display = 'block';
 	 document.getElementById('saidebar').style.height = '350px';
  }
+function authorization(){
+		document.getElementById('saidebar-log').style.display = 'none';
+		document.getElementById('saidebar-log2').style.display = 'block';
+	
+}

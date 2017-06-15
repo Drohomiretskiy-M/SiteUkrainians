@@ -32,6 +32,8 @@ body {
 
 .navbar-login {
 	float: right;
+	cursor: pointer;
+	
 }
 
 main {
@@ -55,6 +57,14 @@ main {
 	background-color: #fff;
 	border-radius: 3px;
 }
+#saidebar-log2{
+	display: none;
+}
+.input{
+	border: 2px solid #000000;
+	margin: 5px;
+	border-radius: 2px;
+}
 
 h3 {
 	color: #353c4f;
@@ -72,11 +82,12 @@ h4 {
 	cursor: pointer;
 	margin: 0 auto;
 	padding: 20px 1px;
-	width: 250px;
+	width: 320px;
 	background: #073c81;
 	border-radius: 3px;
 	color: #fff;
 }
+
 
 .saidebar #login-vk {
 	display: none;
@@ -104,17 +115,17 @@ h4 {
 	display: none;
 }
 
-#login-email {
+#login-email, #login  {
 	cursor: pointer;
 	margin: 0 auto;
 	padding: 20px 1px;
-	width: 250px;
+	width: 320px;
 	background: #fff;
 	border-radius: 3px;
 	color: #000000;
 	border: 1px solid #000000;
 }
-#login-email:hover{
+#login-email:hover, #login:hover{
 	color: #fff;
 	background-color: #1d1d1d;
 }
@@ -164,3 +175,13 @@ footer .confid {}
 }
 
 @media screen and (max-width: 480px) {}
+#exampleInputEmail2 {
+	width: 320px;
+	margin: 20px auto;
+}
+
+#exampleInputPassword2 {
+	width: 320px;
+	margin: 20px  auto;
+	
+}

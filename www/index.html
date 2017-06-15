@@ -29,10 +29,10 @@
 					<div class="header-nav">
 						<div class="navbar">
 							<div class="navbar-logo">
-								<a href="#">Ukrainians <sub>Misha Drohomiretskiy</sub></a>
+								<a href="">Ukrainians <sub>Misha Drohomiretskiy</sub></a>
 							</div>
-							<div class="navbar-login">
-								<a href="#">Увійти</a>
+							<div class="navbar-login" onclick="authorization()">
+								Увійти
 							</div>
 						</div>
 					</div>
@@ -50,29 +50,39 @@
 				</div>
 				<div class=" col-ld-6 col-md-6  col-sm-7 col-xs-12">
 					<div id="saidebar" class="saidebar">
-						<h3>Реєстрація</h3>
-						<h4>Приєднуйтесь до Ukrainians</h4>
-						<a href="">
-							<div id="login-fb">
-								Заєструватися через <b>f</b>
+						<div id="saidebar-log">
+							<h3>Реєстрація</h3>
+							<h4>Приєднуйтесь до Ukrainians</h4>
+							<a href="">
+								<div id="login-fb">
+									Заєструватися через <b>f</b>
+								</div>
+								<div id="login-vk">
+									Заєструватися через <b>VK</b>
+								</div>
+							</a>
+							<div id="other-reg" class="reg-email" onclick="showSaidebar()">Реєструватися іншим способом
+								<br>
 							</div>
-							<div id="login-vk">
-								Заєструватися через <b>VK</b>
+							<div id="email-reg">
+
+								<div id="or">
+									<p>або</p>
+
+								</div>
+
+								<div id="login-email">
+									Заєструватися через <b>Email</b>
+								</div>
 							</div>
-						</a>
-						<div id="other-reg" class="reg-email" onclick="showSaidebar()">Реєструватися іншим способом
-							<br>
 						</div>
-						<div id="email-reg">
-						
-						<div id="or">
-							 <p>або</p>
-							
-						</div>
-							
-							<div id="login-email">
-								Заєструватися через <b>Email</b>
-							</div>
+						<div id="saidebar-log2">
+							<h3>Вхід</h3>
+							<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Введіть Email" autocomplete="on">
+							<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Пароль">
+							<div id="login">
+									<b>Увійти</b>
+								</div>
 						</div>
 					</div>
 				</div>
