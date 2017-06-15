@@ -1,15 +1,21 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #fff;
+	background-color: #f5f6fa;
 }
 
 .navbar {
-	position: relative;
-	top: 20px;
+	margin-left: -15%;
+	padding-left: 15%;
+	margin-right: -9.5%;
+	padding-right: 9.5%;
+	padding-top: 15px;
+	height: 70px;
 	font-size: 24px;
 	color: #467abe;
+	background-color: #fff;
 	font-family: sans-serif;
+	border-bottom: 1px solid #d0d0d2;
 }
 
 .navbar a {
@@ -29,10 +35,8 @@ body {
 }
 
 main {
-	height: 480px;
+	height: 470px;
 	background-color: #f5f6fa;
-	border-top: 1px solid #d0d0d2;
-	border-bottom: 1px solid #d0d0d2;
 }
 
 .map-ua img {
@@ -94,6 +98,16 @@ h4 {
 	color: #a9abaa;
 }
 
+footer {
+	height: 70px;
+	border-top: 1px solid #d0d0d2;
+	margin-left: -50px;
+	padding-left: 50px;
+	margin-right: -50px;
+	padding-right: 50px;
+	
+}
+
 footer a {
 	text-decoration: none;
 	color: #777777;
@@ -109,9 +123,9 @@ footer a:hover {
 	text-align: center;
 	margin-top: 25px;
 }
-footer .confid{
 
-}
+footer .confid {}
+
 @media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 992px) {
