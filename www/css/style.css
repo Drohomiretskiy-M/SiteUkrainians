@@ -4,32 +4,23 @@ body {
 	background-color: #fff;
 }
 
-.container {
-	height: 600px;
-}
-
-header {
-	height: 70px;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
 .navbar {
-	padding-top: 20px;
-	font-size: 20px;
+	position: relative;
+	top: 20px;
+	font-size: 24px;
 	color: #467abe;
 	font-family: sans-serif;
+}
+
+.navbar a {
+	text-decoration: none;
 }
 
 .navbar-logo {
 	display: inline-block;
 }
 
-.navbar-logo a {
-	text-decoration: none;
-}
-
-.navbar-logo a sub {
+.navbar-logo sub {
 	font-size: 10px;
 }
 
@@ -37,73 +28,43 @@ header {
 	float: right;
 }
 
-.navbar-login a {
-	text-decoration: none;
-}
-
 main {
-	padding-left: 15%;
-	padding-right: 15%;
 	height: 480px;
 	background-color: #f5f6fa;
 	border-top: 1px solid #d0d0d2;
+	border-bottom: 1px solid #d0d0d2;
 }
 
-img {
+.map-ua img {
 	max-width: 100%;
-}
-
-.content {
-	padding: 30px;
-	display: inline;
+	position: relative;
+	top: 65px;
 }
 
 .saidebar {
 	margin: 0 auto;
-	position: absolute;
 	text-align: center;
 	border: 1px solid #d0d0d2;
 	margin-top: 70px;
-	float: right;
 	height: 300px;
 	width: 350px;
 	background-color: #fff;
-	border-radius: 2px;
-}
-
-.saidebar-next {
-	display: none;
-	text-align: center;
-	border: 1px solid #d0d0d2;
-	margin-top: 70px;
-	float: right;
-	height: 300px;
-	width: 350px;
-	background-color: #fff;
-	border-radius: 2px;
+	border-radius: 3px;
 }
 
 h3 {
-	text-align: center;
 	color: #353c4f;
 	font-family: sans-serif;
 }
 
 h4 {
-	font-weight: 100;
-	text-align: center;
-	margin: 0 auto;
 	color: #8a8b8b;
 	font-family: sans-serif;
 	padding-bottom: 50px;
 }
 
 .saidebar span {
-	margin: 10px;
 	padding: 20px;
-	text-decoration: none;
-	height: 50px;
-	width: 40px;
 	background: #073c81;
 	border-radius: 3px;
 	color: #fff;
@@ -128,42 +89,36 @@ h4 {
 }
 
 .reg-email {
-	padding: 50px;
+	position: relative;
+	top: 50px;
 	color: #a9abaa;
 }
 
-footer {
-	height: 70px;
-	margin-left: 15%;
-	margin-right: 15%;
-	color: #888888;
+footer a {
+	text-decoration: none;
+	color: #777777;
+}
 
-}
-footer a{
-	
-	color:#777777; 
-	
-}
-footer a:hover{
+footer a:hover {
 	color: #b2b2b2;
 	text-decoration: none;
 }
-footer a:visited{
-	color: #b2b2b2;
-	text-decoration: none;
-}
-
 
 .footer-nav {
+	margin: 0 auto;
+	text-align: center;
 	margin-top: 25px;
 }
-.confid {
-	float: right;
-}
+footer .confid{
 
+}
 @media screen and (max-width: 1200px) {}
 
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+	.map-ua img {
+		top: 120px;
+	}
+}
 
 @media screen and (max-width: 767px) {
 	.map-ua img {
@@ -172,4 +127,3 @@ footer a:visited{
 }
 
 @media screen and (max-width: 480px) {}
-
