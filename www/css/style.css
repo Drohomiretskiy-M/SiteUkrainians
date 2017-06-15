@@ -67,28 +67,31 @@ h4 {
 	padding-bottom: 50px;
 }
 
-.saidebar span {
-	padding: 20px;
+.saidebar #login-fb,
+.saidebar #login-vk {
+	cursor: pointer;
+	margin: 0 auto;
+	padding: 20px 1px;
+	width: 250px;
 	background: #073c81;
 	border-radius: 3px;
 	color: #fff;
 }
 
-.saidebar span a {
+.saidebar #login-vk {
+	display: none;
+}
+
+.saidebar a {
 	text-decoration: none;
-	color: #fff;
 }
 
-.saidebar span:hover {
-	background-color: #073ca2;
+.saidebar #login-fb:hover,
+.saidebar #login-vk:hover {
+	background-color: #054ead;
 }
 
-.reg-email a {
-	text-decoration: none;
-	color: #8a8b8b;
-}
-
-.reg-email a:hover {
+.reg-email:hover {
 	color: #cecece;
 }
 
@@ -96,6 +99,27 @@ h4 {
 	position: relative;
 	top: 50px;
 	color: #a9abaa;
+}
+#email-reg{
+	display: none;
+}
+
+#login-email {
+	cursor: pointer;
+	margin: 0 auto;
+	padding: 20px 1px;
+	width: 250px;
+	background: #fff;
+	border-radius: 3px;
+	color: #000000;
+	border: 1px solid #000000;
+}
+#login-email:hover{
+	color: #fff;
+	background-color: #1d1d1d;
+}
+#or{
+	margin: 25px;
 }
 
 footer {
@@ -105,7 +129,6 @@ footer {
 	padding-left: 50px;
 	margin-right: -50px;
 	padding-right: 50px;
-	
 }
 
 footer a {
