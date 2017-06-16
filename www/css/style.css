@@ -5,17 +5,17 @@ body {
 }
 
 .navbar {
-	margin-left: -15%;
-	padding-left: 15%;
-	margin-right: -9.5%;
-	padding-right: 9.5%;
 	padding-top: 15px;
-	height: 70px;
 	font-size: 24px;
 	color: #467abe;
 	background-color: #fff;
 	font-family: sans-serif;
+}
+
+.header-container {
 	border-bottom: 1px solid #d0d0d2;
+	background-color: #fff;
+	height: 70px;
 }
 
 .navbar a {
@@ -33,12 +33,15 @@ body {
 .navbar-login {
 	float: right;
 	cursor: pointer;
-	
+}
+
+.navbar-login:hover,
+.navbar-logo:hover {
+	color: #e8721b;
 }
 
 main {
 	height: 470px;
-	background-color: #f5f6fa;
 }
 
 .map-ua img {
@@ -53,17 +56,13 @@ main {
 	border: 1px solid #d0d0d2;
 	margin-top: 70px;
 	height: 300px;
-	width: 350px;
+	width: 300px;
 	background-color: #fff;
 	border-radius: 3px;
 }
-#saidebar-log2{
+
+#saidebar-log2 {
 	display: none;
-}
-.input{
-	border: 2px solid #000000;
-	margin: 5px;
-	border-radius: 2px;
 }
 
 h3 {
@@ -82,12 +81,11 @@ h4 {
 	cursor: pointer;
 	margin: 0 auto;
 	padding: 20px 1px;
-	width: 320px;
+	width: 270px;
 	background: #073c81;
 	border-radius: 3px;
 	color: #fff;
 }
-
 
 .saidebar #login-vk {
 	display: none;
@@ -111,35 +109,36 @@ h4 {
 	top: 50px;
 	color: #a9abaa;
 }
-#email-reg{
+
+#email-reg {
 	display: none;
 }
 
-#login-email, #login  {
+#login-email,
+#login {
 	cursor: pointer;
 	margin: 0 auto;
 	padding: 20px 1px;
-	width: 320px;
+	width: 270px;
 	background: #fff;
 	border-radius: 3px;
 	color: #000000;
 	border: 1px solid #000000;
 }
-#login-email:hover, #login:hover{
+
+#login-email:hover,
+#login:hover {
 	color: #fff;
 	background-color: #1d1d1d;
 }
-#or{
+
+#or {
 	margin: 25px;
 }
 
-footer {
-	height: 70px;
+.footer-container {
 	border-top: 1px solid #d0d0d2;
-	margin-left: -50px;
-	padding-left: 50px;
-	margin-right: -50px;
-	padding-right: 50px;
+	height: 70px;
 }
 
 footer a {
@@ -153,12 +152,10 @@ footer a:hover {
 }
 
 .footer-nav {
-	margin: 0 auto;
+	margin: 0px auto;
 	text-align: center;
 	margin-top: 25px;
 }
-
-footer .confid {}
 
 @media screen and (max-width: 1200px) {}
 
@@ -174,14 +171,41 @@ footer .confid {}
 	}
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+	.saidebar {
+		height: 300px;
+		width: 200px;
+	}
+	.saidebar #login-fb,
+	.saidebar #login-vk {
+		padding: 5px 1px;
+		width: 170px;
+	}
+	#login-email,
+	#login {
+		margin: 0 auto;
+		padding: 2px 1px;
+		width: 170px;
+	}
+	#or {
+		margin: 5px;
+	}
+	.navbar-logo sub {
+		display: none;
+	}
+}
+
 #exampleInputEmail2 {
-	width: 320px;
+	width: 270px;
 	margin: 20px auto;
 }
 
 #exampleInputPassword2 {
-	width: 320px;
-	margin: 20px  auto;
-	
+	width: 270px;
+	margin: 20px auto;
+}
+.content-about {
+	background-color: #fff;
+	border: 1px solid #d0d0d2;
+	padding: 30px;
 }
