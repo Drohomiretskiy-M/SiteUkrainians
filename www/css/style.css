@@ -4,20 +4,16 @@ body {
 	background-color: #f5f6fa;
 }
 
-.navbar {
-	
-	padding-top: 15px;
-	font-size: 24px;
-	color: #467abe;
-	background-color: #fff;
-	font-family: sans-serif;
-}
-
 .header-container {
-	
 	border-bottom: 1px solid #d0d0d2;
 	background-color: #fff;
-	height: 70px;
+	height: 60px;
+}
+
+.navbar {
+	background-color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
 }
 
 .navbar a {
@@ -26,6 +22,7 @@ body {
 
 .navbar-logo {
 	display: inline-block;
+	padding: 12px;
 }
 
 .navbar-logo sub {
@@ -35,15 +32,38 @@ body {
 .navbar-login {
 	float: right;
 	cursor: pointer;
-}
-
-.navbar-login:hover,
-.navbar-logo:hover {
-	color: #e8721b;
+	font-size: 16px;
+	padding: 17px;
 }
 
 main {
+	min-height: 500px;
+}
+
+.content-about,
+.content-contact,
+.content-confid {
+	background-color: #fff;
+	border: 1px solid #d0d0d2;
+	padding: 5px;
+	display: none;
+	margin: 10px;
+}
+
+#main-about,
+#contact-page,
+#confid-page {
+	background-color: #fff;
+	text-align: justify;
+	padding: 40px 60px;
 	min-height: 470px;
+	border-radius: 3px;
+	font-family: sans-serif;
+	color: #767676;
+}
+
+h2 span {
+	text-decoration: underline;
 }
 
 .map-ua img {
@@ -67,12 +87,12 @@ main {
 	display: none;
 }
 
-h3 {
+#saidebar h3 {
 	color: #353c4f;
 	font-family: sans-serif;
 }
 
-h4 {
+#saidebar h4 {
 	color: #8a8b8b;
 	font-family: sans-serif;
 	padding-bottom: 50px;
@@ -102,14 +122,14 @@ h4 {
 	background-color: #054ead;
 }
 
-.reg-email:hover {
-	color: #cecece;
-}
-
 .reg-email {
 	position: relative;
 	top: 50px;
 	color: #a9abaa;
+}
+
+.reg-email:hover {
+	color: #cecece;
 }
 
 #email-reg {
@@ -206,16 +226,13 @@ footer a:hover {
 	width: 270px;
 	margin: 20px auto;
 }
-.content-about {
-	background-color: #fff;
-	border: 1px solid #d0d0d2;
-	padding: 30px;
+
+.footer-btn {
+	color: #585858;
+	font-family: 'Nunito', sans-serif;
+	cursor: pointer;
 }
 
-.navbar {
-	margin: 0 10% 0 10%;
-}
-
-main {
-	margin: 0 10% 0 10%;
+.footer-btn:hover {
+	color: #cecece;
 }
