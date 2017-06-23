@@ -59,7 +59,6 @@ main {
 	margin: 10px;
 }
 
-
 #main-about,
 #contact-page,
 #confid-page {
@@ -70,7 +69,6 @@ main {
 	border-radius: 3px;
 	font-family: sans-serif;
 	color: #767676;
-	display: none;
 }
 
 h2 span {
@@ -100,9 +98,17 @@ h2 span {
 	margin: 20px auto;
 }
 
-#saidebar-log2,
 #saidebar-log3 {
+	height: 505px;
 	display: none;
+}
+
+#saidebar-log2 {
+	display: none;
+
+}
+#saidebar-log{
+	height: 270px;
 }
 
 #saidebar h3 {
@@ -113,7 +119,7 @@ h2 span {
 #saidebar h4 {
 	color: #8a8b8b;
 	font-family: sans-serif;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 }
 
 .saidebar #login-fb,
@@ -173,7 +179,7 @@ h2 span {
 }
 
 #or {
-	margin: 25px;
+	margin: 10px;
 }
 
 .footer-container {
@@ -196,6 +202,7 @@ footer a:hover {
 	text-align: center;
 	margin-top: 25px;
 }
+
 .footer-btn {
 	color: #585858;
 	font-family: 'Nunito', sans-serif;
@@ -269,4 +276,3 @@ footer a:hover {
 		padding: 10px 10px;
 	}
 }
-
