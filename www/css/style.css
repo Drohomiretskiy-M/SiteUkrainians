@@ -14,10 +14,15 @@ body {
 	background-color: #fff;
 	font-family: 'Nunito', sans-serif;
 	font-size: 20px;
+	color: #054ead;
 }
 
 .navbar a {
 	text-decoration: none;
+}
+
+.navbar-logo:hover {
+	color: #0b57b9;
 }
 
 .navbar-logo {
@@ -34,6 +39,10 @@ body {
 	cursor: pointer;
 	font-size: 16px;
 	padding: 17px;
+}
+
+.navbar-login:hover {
+	color: #042045;
 }
 
 main {
@@ -77,13 +86,20 @@ h2 span {
 	text-align: center;
 	border: 1px solid #d0d0d2;
 	margin-top: 70px;
-	height: 300px;
+	margin-bottom: 25px;
+	min-height: 300px;
 	width: 300px;
 	background-color: #fff;
 	border-radius: 3px;
 }
 
-#saidebar-log2 {
+.form-control {
+	width: 270px;
+	margin: 20px auto;
+}
+
+#saidebar-log2,
+#saidebar-log3 {
 	display: none;
 }
 
@@ -191,6 +207,10 @@ footer a:hover {
 	.map-ua img {
 		display: none;
 	}
+	#contact-page,
+	#confid-page {
+		padding: 10px 10px;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -215,16 +235,11 @@ footer a:hover {
 	.navbar-logo sub {
 		display: none;
 	}
-}
-
-#exampleInputEmail2 {
-	width: 270px;
-	margin: 20px auto;
-}
-
-#exampleInputPassword2 {
-	width: 270px;
-	margin: 20px auto;
+	#main-about,
+	#contact-page,
+	#confid-page {
+		padding: 10px 10px;
+	}
 }
 
 .footer-btn {
@@ -235,4 +250,21 @@ footer a:hover {
 
 .footer-btn:hover {
 	color: #cecece;
+}
+
+.forgot-password {
+	margin-top: 20px;
+	text-align: center;
+	color: #a9abaa;
+	cursor: pointer;
+}
+
+.radio-btn {
+	width: 25px;
+	height: 25px;
+}
+
+.sex {
+	text-align: left;
+	margin: 25px 10px;
 }

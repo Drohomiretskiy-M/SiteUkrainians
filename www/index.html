@@ -34,7 +34,7 @@
 									<a href="/index.html">Ukrainians <sub>Misha Drohomiretskiy</sub></a>
 								</div>
 								<div class="navbar-login" onclick="authorization()">
-									<a href="/main.html">Увійти</a>
+									Увійти
 								</div>
 							</div>
 						</div>
@@ -75,7 +75,7 @@
 										<div id="or">
 											<p>або</p>
 										</div>
-										<div id="login-email">
+										<div id="login-email" onclick="register()">
 											Заєструватися через <b>Email</b>
 										</div>
 									</div>
@@ -84,8 +84,64 @@
 									<h3>Вхід</h3>
 									<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Введіть Email" autocomplete="on">
 									<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Пароль">
+									<a href="/main.html">
+										<div id="login">
+											<b>Увійти</b>
+										</div>
+									</a>
+									<div class="forgot-password">
+										Забули пароль?
+									</div>
+								</div>
+								<div id="saidebar-log3">
+									<h3>Реєстрація</h3>
+									<input type="text" id="user-name" class="form-control" placeholder="Ім'я">
+									<input type="text" id="user-lastname" class="form-control" placeholder="Прізвище">
+									<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Введіть Email" autocomplete="on">
+									<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Пароль"> 
+									<div class="birthday">
+									Дата народження<br>
+										<select name="day" id="day">
+										<script>
+											for(i=1; i<32; i++){
+											document.write('<option value="'+i+'">'+i+'</option>');	
+											}
+									
+										</script>
+									</select>
+										<select name="mounth" id="mounth">
+										<option value="">Січень</option>
+										<option value="">Лютий</option>
+										<option value="">Березень</option>
+										<option value="">Квітень</option>
+										<option value="">Травень</option>
+										<option value="">Червень</option>
+										<option value="">Липень</option>
+										<option value="">Серпень</option>
+										<option value="">Вересень</option>
+										<option value="">Жовтень</option>
+										<option value="">Листопад</option>
+										<option value="">Грудень</option>
+									</select>
+										<select name="year" id="year">
+										<script>
+											for(i=1950; i<2017; i++){
+											document.write('<option value="'+i+'">'+i+'</option>');	
+											}
+									
+										</script>
+									</select>
+									</div>
+									<div class="sex">
+									Стать<br><br>
+										<input type="radio" name="gender" value="male" id="male" class="radio-btn" checked>Чоловік
+										<input type="radio" name="gender" id="female" class="radio-btn" value="female">Жінка<br>
+									</div>
+									
+									тут буде капча!!!
+									
 									<div id="login">
-										<b>Увійти</b>
+										<b>Зареєструватися</b>
 									</div>
 								</div>
 							</div>

@@ -8,7 +8,18 @@
 
  function authorization() {
  	document.getElementById('saidebar-log').style.display = 'none';
+ 	document.getElementById('saidebar-log3').style.display = 'none';
  	document.getElementById('saidebar-log2').style.display = 'block';
+ 	document.getElementById('saidebar').style.minHeight = '290px';
+
+ }
+
+ function register() {
+ 	document.getElementById('saidebar-log').style.display = 'none';
+ 	document.getElementById('saidebar-log2').style.display = 'none';
+ 	document.getElementById('saidebar-log3').style.display = 'block';
+ 	document.getElementById('saidebar').style.minHeight = '500px';
+
 
  }
 
