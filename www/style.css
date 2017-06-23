@@ -59,7 +59,6 @@ main {
 	margin: 10px;
 }
 
-
 #main-about,
 #contact-page,
 #confid-page {
@@ -70,7 +69,6 @@ main {
 	border-radius: 3px;
 	font-family: sans-serif;
 	color: #767676;
-	display: none;
 }
 
 h2 span {
@@ -196,32 +194,6 @@ footer a:hover {
 	text-align: center;
 	margin-top: 25px;
 }
-.footer-btn {
-	color: #585858;
-	font-family: 'Nunito', sans-serif;
-	cursor: pointer;
-}
-
-.footer-btn:hover {
-	color: #cecece;
-}
-
-.forgot-password {
-	margin-top: 20px;
-	text-align: center;
-	color: #a9abaa;
-	cursor: pointer;
-}
-
-.radio-btn {
-	width: 25px;
-	height: 25px;
-}
-
-.sex {
-	text-align: left;
-	margin: 25px 10px;
-}
 
 @media screen and (max-width: 1200px) {}
 
@@ -270,3 +242,29 @@ footer a:hover {
 	}
 }
 
+.footer-btn {
+	color: #585858;
+	font-family: 'Nunito', sans-serif;
+	cursor: pointer;
+}
+
+.footer-btn:hover {
+	color: #cecece;
+}
+
+.forgot-password {
+	margin-top: 20px;
+	text-align: center;
+	color: #a9abaa;
+	cursor: pointer;
+}
+
+.radio-btn {
+	width: 25px;
+	height: 25px;
+}
+
+.sex {
+	text-align: left;
+	margin: 25px 10px;
+}
